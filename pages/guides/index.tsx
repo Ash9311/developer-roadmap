@@ -8,6 +8,7 @@ import { GuideGridItem } from '../../components/guide/guide-grid-item';
 import { PageHeader } from '../../components/page-header';
 import { getAllGuides, GuideType } from '../../lib/guide';
 import Helmet from '../../components/helmet';
+import { TeamsBanner } from '../../components/teams-banner';
 
 type GuidesProps = {
   guides: GuideType[]
@@ -40,7 +41,8 @@ export default function Guides(props: GuidesProps) {
                 title={recentGuide.title}
                 subtitle={recentGuide.description}
                 date={recentGuide.formattedUpdatedAt!}
-                isNew
+                isNew={recentGuide.isNew}
+                type={recentGuide.type}
                 colorIndex={counter}
               />
             ))}
@@ -53,7 +55,7 @@ export default function Guides(props: GuidesProps) {
                 key={oldGuide.id}
                 title={oldGuide.title}
                 badgeText={oldGuide.isNew ? 'NEW' : ''}
-                subtitle={oldGuide.formattedUpdatedAt!}
+                subtitle={`${oldGuide?.type?.charAt(0).toUpperCase()}${oldGuide?.type?.slice(1)}`}
               />
             ))}
           </LinksList>
@@ -61,6 +63,7 @@ export default function Guides(props: GuidesProps) {
       </Box>
 
       <OpensourceBanner />
+      <TeamsBanner />
       <Footer />
     </Box>
   );

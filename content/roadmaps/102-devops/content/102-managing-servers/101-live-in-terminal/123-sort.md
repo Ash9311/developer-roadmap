@@ -8,5 +8,6 @@ It has the following syntax
 
 <ResourceGroupTitle>Free Content</ResourceGroupTitle>
 <BadgeLink colorScheme='yellow' badgeText='Read' href='https://www.geeksforgeeks.org/sort-command-linuxunix-examples/'>Sort command with examples</BadgeLink>
-<BadgeLink colorScheme='yellow' badgeText='Wiki' href='https://en.wikipedia.org/wiki/Sort_(Unix)'>Options</BadgeLink>
+<BadgeLink colorScheme='yellow' badgeText='Read' href='https://en.wikipedia.org/wiki/Sort_(Unix)'>Options</BadgeLink>
+<BadgeLink badgeText='Watch' href='https://www.youtube.com/watch?v=fEx5rnbDKO4'>Linux Tutorials|sort command GeeksforGeeks</BadgeLink>
 

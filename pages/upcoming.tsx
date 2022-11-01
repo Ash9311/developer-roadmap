@@ -9,8 +9,9 @@ import { BellIcon, EmailIcon } from '@chakra-ui/icons';
 import { SIGNUP_EMAIL_INPUT_NAME, SIGNUP_FORM_ACTION } from './signup';
 import React from 'react';
 import { upcomingRoadmaps } from '../components/home/featured-roadmaps-list';
+import { TeamsBanner } from '../components/teams-banner';
 
-function getParameterByName(name: string, url: string = (typeof window !== 'undefined' ? window : {} as any)?.location?.href) {
+export function getParameterByName(name: string, url: string = (typeof window !== 'undefined' ? window : {} as any)?.location?.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
 
   let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
@@ -33,6 +34,7 @@ export default function Upcoming() {
     <Box bg='white' minH='100vh'>
       <GlobalHeader />
       <Helmet
+        noIndex={true}
         title={title}
         description={description}
       />
@@ -57,6 +59,7 @@ export default function Upcoming() {
       </Box>
 
       <OpensourceBanner />
+      <TeamsBanner />
       <Footer />
     </Box>
   );

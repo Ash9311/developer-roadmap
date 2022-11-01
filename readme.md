@@ -1,6 +1,6 @@
 <p align="center">
   <img src="public/brand.png" height="128">
-  <h2 align="center">roadmap.sh</h2>
+  <h2 align="center"><a href="https://roadmap.sh">roadmap.sh</a></h2>
   <p align="center">Community driven roadmaps, articles and resources for developers<p>
   <p align="center">
     <a href="https://roadmap.sh/roadmaps">
@@ -22,7 +22,7 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
-Roadmaps are being made interactive and have been moved to the website.
+Roadmaps are now interactive, you can click the nodes to read more about the topics.
 
 ### [View all Roadmaps](https://roadmap.sh)
 
@@ -34,17 +34,22 @@ Here is the list of available roadmaps with more being actively worked upon.
 - [Backend Roadmap](https://roadmap.sh/backend)
 - [DevOps Roadmap](https://roadmap.sh/devops)
 - [QA Roadmap](https://roadmap.sh/qa)
+- [Software Architect Roadmap](https://roadmap.sh/software-architect)
+- [Software Design and Architecture Roadmap](https://roadmap.sh/software-design-architecture)
+- [JavaScript Roadmap](https://roadmap.sh/javascript)
 - [React Roadmap](https://roadmap.sh/react)
 - [Vue Roadmap](https://roadmap.sh/vue)
 - [Angular Roadmap](https://roadmap.sh/angular)
-- [Android Roadmap](https://roadmap.sh/android)
-- [JavaScript Roadmap](https://roadmap.sh/javascript)
 - [Node.js Roadmap](https://roadmap.sh/nodejs)
+- [Android Roadmap](https://roadmap.sh/android)
+- [Flutter Roadmap](https://roadmap.sh/flutter)
 - [Python Roadmap](https://roadmap.sh/python)
 - [Go Roadmap](https://roadmap.sh/golang)
 - [Java Roadmap](https://roadmap.sh/java)
+- [Design System Roadmap](https://roadmap.sh/design-system)
 - [DBA Roadmap](https://roadmap.sh/postgresql-dba)
 - [Blockchain Roadmap](https://roadmap.sh/blockchain)
+- [ASP.NET Core Roadmap](https://roadmap.sh/aspnet-core)
 
 ![](https://i.imgur.com/waxVImv.png)
 
@@ -62,11 +67,11 @@ npm run dev
 
 ## Contribution
 
-> Have a look at [contribution docs](./contributing) for how to update any of the roadmaps
+> Have a look at [contribution docs](./contributing.md) for how to update any of the roadmaps
 
+- Add content to roadmaps
+- Add new roadmaps
 - Suggest changes to existing roadmaps
-- [Add content to roadmaps](https://github.com/kamranahmedse/developer-roadmap/issues/985)
-- Write tests
 - Discuss ideas in issues
 - Spread the word
 

@@ -7,6 +7,7 @@ import MdRenderer from '../../components/md-renderer';
 import { getAllGuides, getGuideById, GuideType } from '../../lib/guide';
 import siteConfig from '../../content/site.json';
 import Helmet from '../../components/helmet';
+import { TeamsBanner } from '../../components/teams-banner';
 
 type GuideProps = {
   guide: GuideType;
@@ -27,7 +28,7 @@ export default function Guide(props: GuideProps) {
         <ContentPageHeader
           title={guide.title}
           subtitle={guide.description}
-          formattedDate={guide.formattedUpdatedAt!}
+          formattedDate={`${guide?.type?.charAt(0).toUpperCase()}${guide?.type?.slice(1)} Guide`}
           author={{
             twitter: guide?.author?.twitter!,
             picture: guide?.author?.picture!,
@@ -46,6 +47,7 @@ export default function Guide(props: GuideProps) {
       </Box>
 
       <OpensourceBanner />
+      <TeamsBanner />
       <Footer />
     </Box>
   );

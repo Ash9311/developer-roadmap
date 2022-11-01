@@ -51,7 +51,8 @@
       "nodejs",
       "react",
       "angular",
-      "vue"
+      "vue",
+      "design-system"
     ],
     "id": "frontend",
     "metaPath": "/roadmaps/100-frontend/meta.json",
@@ -124,7 +125,7 @@
         "devops roadmap 2022",
         "sre roadmap 2022",
         "operations roadmap 2022",
-        "guide to becoming a devops enginer",
+        "guide to becoming a devops engineer",
         "devops roadmap",
         "sre roadmap",
         "site reliability engineer roadmap",
@@ -219,7 +220,8 @@
       "javascript",
       "angular",
       "vue",
-      "nodejs"
+      "nodejs",
+      "design-system"
     ],
     "id": "react",
     "metaPath": "/roadmaps/103-react/meta.json",
@@ -252,8 +254,6 @@
     "isCommunity": false,
     "featured": true,
     "jsonUrl": "/project/angular.json",
-    "landingPath": "/roadmaps/104-angular/landscape.md",
-    "resourcesPath": "/roadmaps/104-angular/resources.md",
     "versions": [
       "latest",
       "2018",
@@ -271,6 +271,7 @@
       "vue",
       "nodejs"
     ],
+    "contentPathsFilePath": "/roadmaps/104-angular/content-paths.json",
     "id": "angular",
     "metaPath": "/roadmaps/104-angular/meta.json",
     "isUpcoming": false
@@ -574,7 +575,7 @@
   {
     "seo": {
       "title": "Learn to become a Go developer",
-      "description": "Community driven, articles, resources, guides, interview questions, quizzes for Go development. Learn to become a modern React developer by following the steps, skills, resources and guides listed in this roadmap.",
+      "description": "Community driven, articles, resources, guides, interview questions, quizzes for Go development. Learn to become a modern Go developer by following the steps, skills, resources and guides listed in this roadmap.",
       "keywords": [
         "guide to becoming a golang developer",
         "guide to becoming a go developer",
@@ -691,6 +692,60 @@
     ],
     "id": "java",
     "metaPath": "/roadmaps/110-java/meta.json"
+  },
+  {
+    "seo": {
+      "title": "How to Create a Design System",
+      "description": "Learn how to create a design system or become a design system engineer with this step by step guide with resources.",
+      "keywords": [
+        "guide to create a design system",
+        "guide to becoming a design system engineer",
+        "design system engineer",
+        "design system engineer",
+        "design system skills",
+        "guide to design system",
+        "design system roadmap",
+        "design system skills",
+        "design system skills test",
+        "skills for design system",
+        "what is design system",
+        "design system quiz",
+        "design system interview questions",
+        "design system engineer roadmap",
+        "design system engineer roadmap",
+        "become a design system engineer",
+        "design system engineer career path",
+        "design system engineer",
+        "modern design system engineer"
+      ]
+    },
+    "title": "Design System",
+    "description": "Learn how to create a design system with this step by step guide",
+    "featuredTitle": "Design System",
+    "type": "tool",
+    "featuredDescription": "Step by step guide to building a modern Design System",
+    "isTextHeavy": false,
+    "isCommunity": false,
+    "isNew": true,
+    "isUpcoming": false,
+    "featured": true,
+    "jsonUrl": "/project/design-system.json",
+    "author": {
+      "name": "Kamran Ahmed",
+      "url": "https://twitter.com/kamranahmedse"
+    },
+    "pdfUrl": "/pdfs/design-system.pdf",
+    "contentPathsFilePath": "/roadmaps/111-design-system/content-paths.json",
+    "relatedRoadmaps": [
+      "frontend",
+      "javascript",
+      "react",
+      "vue",
+      "angular",
+      "nodejs"
+    ],
+    "id": "design-system",
+    "metaPath": "/roadmaps/111-design-system/meta.json"
   },
   {
     "seo": {
@@ -848,5 +903,226 @@
     "id": "qa",
     "metaPath": "/roadmaps/113-qa/meta.json",
     "isUpcoming": false
+  },
+  {
+    "seo": {
+      "title": "Software Architect Roadmap: Learn to become a modern Software Architect",
+      "description": "Community driven, articles, resources, guides, interview questions, quizzes for DevOps. Learn to become a modern DevOps engineer by following the steps, skills, resources and guides listed in this roadmap.",
+      "keywords": [
+        "solution architect roadmap",
+        "enterprise architect roadmap",
+        "guide to becoming a software architect",
+        "guide to becoming a Software Architect",
+        "software architect roadmap",
+        "db administrator roadmap",
+        "software architect roadmap",
+        "software architect skills",
+        "db administrator skills",
+        "become software architect",
+        "modern software architect skills",
+        "software architect skills test",
+        "skills for software architect",
+        "skills for software architect",
+        "learn software architect",
+        "what is software architect",
+        "software architect quiz",
+        "software architect interview questions"
+      ]
+    },
+    "title": "Software Architect",
+    "description": "Step by step guide to becoming a Software Architect in 2022",
+    "featuredTitle": "Software Architect",
+    "isNew": true,
+    "type": "role",
+    "jsonUrl": "/project/software-architect.json",
+    "featuredDescription": "Step by step guide to become a Software Architect in 2022",
+    "isCommunity": false,
+    "featured": true,
+    "detailed": false,
+    "versions": [],
+    "relatedRoadmaps": [
+      "backend",
+      "software-design-architecture",
+      "python",
+      "python",
+      "nodejs",
+      "golang",
+      "java",
+      "devops"
+    ],
+    "contentPathsFilePath": "/roadmaps/114-software-architect/content-paths.json",
+    "id": "software-architect",
+    "metaPath": "/roadmaps/114-software-architect/meta.json",
+    "isUpcoming": false
+  },
+  {
+    "seo": {
+      "title": "Software Design and Architecture Roadmap",
+      "description": "Learn software design and architecture with this step by step guide and resources.",
+      "keywords": [
+        "guide to learn software design and architecture",
+        "software design roadmap",
+        "software architecture roadmap",
+        "software design and architecture roadmap",
+        "modern software design and architecture roadmap",
+        "fullstack software design and architecture roadmap",
+        "design and architecture roadmap",
+        "scalable design roadmap",
+        "software design patterns roadmap",
+        "software architecture patterns roadmap",
+        "design architecture patterns roadmap",
+        "application architectures",
+        "software architecture guide"
+      ]
+    },
+    "title": "Software Design and Architecture",
+    "description": "Step by step guide to learn software design and architecture",
+    "featuredTitle": "Software Design and Architecture",
+    "type": "tool",
+    "featuredDescription": "Guide to learn software design and architecture",
+    "isTextHeavy": false,
+    "isCommunity": false,
+    "isNew": true,
+    "isUpcoming": false,
+    "featured": true,
+    "jsonUrl": "/project/software-design-architecture.json",
+    "author": {
+      "name": "Kamran Ahmed",
+      "url": "https://twitter.com/kamranahmedse"
+    },
+    "pdfUrl": "/pdfs/software-design-architecture.pdf",
+    "relatedRoadmaps": [
+      "backend",
+      "software-architect",
+      "devops",
+      "python",
+      "java",
+      "nodejs",
+      "golang"
+    ],
+    "id": "software-design-architecture",
+    "metaPath": "/roadmaps/115-software-design-architecture/meta.json"
+  },
+  {
+    "seo": {
+      "title": "Learn to become a modern ASP.NET core developer",
+      "description": "Community driven, articles, resources, guides, interview questions, quizzes for asp.net core development. Learn to become a modern ASP.NET core developer by following the steps, skills, resources and guides listed in this roadmap.",
+      "keywords": [
+        "guide to becoming a developer",
+        "guide to becoming an asp.net core developer",
+        "asp.net core developer",
+        "asp.net core engineer",
+        "asp.net core skills",
+        "guide to asp.net core",
+        "asp.net developer roadmap",
+        "asp net developer roadmap",
+        "asp developer roadmap",
+        "asp.net core roadmap",
+        "asp.net core skills",
+        "asp.net core skills test",
+        "skills for asp.net core",
+        "cloud development",
+        "what is asp.net core",
+        "asp.net core quiz",
+        "asp.net core interview questions",
+        "asp.net core engineer roadmap",
+        "asp.net core developer roadmap",
+        "become an asp.net core developer",
+        "asp.net core developer career path",
+        "asp.net core developer",
+        "modern asp.net core developer"
+      ]
+    },
+    "title": "ASP.NET Core Developer",
+    "description": "Step by step guide to becoming an ASP.NET core developer in 2022",
+    "featuredTitle": "ASP.NET Core",
+    "type": "role",
+    "featuredDescription": "Step by step guide to becoming an ASP.NET Core Developer in 2022",
+    "isTextHeavy": false,
+    "isCommunity": false,
+    "isUpcoming": false,
+    "featured": true,
+    "isNew": true,
+    "jsonUrl": "/project/aspnet-core.json",
+    "versions": [
+      "latest",
+      "2018",
+      "2017"
+    ],
+    "author": {
+      "name": "Moien Tajik",
+      "url": "https://twitter.com/MoienTajik"
+    },
+    "pdfUrl": "/pdfs/aspnet-core.pdf",
+    "relatedRoadmaps": [
+      "backend",
+      "devops",
+      "python",
+      "golang",
+      "java",
+      "nodejs"
+    ],
+    "contentPathsFilePath": "/roadmaps/116-aspnet-core/content-paths.json",
+    "id": "aspnet-core",
+    "metaPath": "/roadmaps/116-aspnet-core/meta.json"
+  },
+  {
+    "seo": {
+      "title": "Learn to become a modern Flutter developer",
+      "description": "Community driven, articles, resources, guides, interview questions, quizzes for flutter development. Learn to become a modern Flutter developer by following the steps, skills, resources and guides listed in this roadmap.",
+      "keywords": [
+        "guide to becoming a flutter developer",
+        "guide to becoming a flutter developer",
+        "flutter developer",
+        "flutter engineer",
+        "flutter skills",
+        "guide to flutter",
+        "flutter roadmap",
+        "flutter skills",
+        "flutter skills test",
+        "skills for flutter",
+        "what is flutter",
+        "flutter quiz",
+        "flutter interview questions",
+        "flutter engineer roadmap",
+        "flutter developer roadmap",
+        "become a flutter developer",
+        "flutter developer career path",
+        "flutter developer",
+        "modern flutter developer"
+      ]
+    },
+    "title": "Flutter Developer",
+    "description": "Step by step guide to becoming a Flutter developer in 2022",
+    "featuredTitle": "Flutter",
+    "type": "role",
+    "featuredDescription": "Step by step guide to becoming a Flutter Developer in 2022",
+    "isTextHeavy": false,
+    "isCommunity": false,
+    "isUpcoming": false,
+    "featured": true,
+    "isNew": true,
+    "jsonUrl": "/project/flutter.json",
+    "versions": [
+      "latest",
+      "2018",
+      "2017"
+    ],
+    "author": {
+      "name": "Moien Tajik",
+      "url": "https://twitter.com/MoienTajik"
+    },
+    "pdfUrl": "/pdfs/flutter.pdf",
+    "relatedRoadmaps": [
+      "backend",
+      "devops",
+      "python",
+      "golang",
+      "java",
+      "nodejs"
+    ],
+    "contentPathsFilePath": "/roadmaps/117-flutter/content-paths.json",
+    "id": "flutter",
+    "metaPath": "/roadmaps/117-flutter/meta.json"
   }
 ]
